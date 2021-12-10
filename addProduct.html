@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Index.css">
+    <title>Add Product</title>
+</head>
+<body>
+    <center>
+        <img width="250px" height="200px" src="./image/logo.jpg" alt="">
+        
+        <h1 class="Product1">Day To Day MarketPlace</h1>
+        
+        
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <form method="POST" action="./addproduct.php" >
+                        <fieldset width="50%">
+                        <legend> <h3 class="Product2">AddProduct</h3> </legend>
+                       
+                          Id<br/><input type="text" name= "id" placeholder="Enter User id"><br/>
+                          
+                        
+                        ProductName<br/><input type="text"  name= "productname" placeholder="Enter productName"><br/>
+                         
+                         
+                      Quantity<br/><input type="text" name= "quantity" placeholder="Enter Quantity"><br/>
+                  
+                        
+                       
+                        <input type="submit" name="submit" value="Confirm">
+                        <button>Cancel</button>
+                        <a href="./index.html">GoHome</a>
+                    </fieldset>
+                </form>
+                </td>
+            </tr>  
+                       
+        </table>
+
+      
+    </center>
+
+    
+</body>
+</html>

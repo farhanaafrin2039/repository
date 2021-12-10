@@ -1,0 +1,46 @@
+body {
+    background-image: url("image/background.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: chocolate;
+
+    background-repeat: no-repeat;
+   }
+
+
+.Product1
+{
+    text-align: center;
+    color:red ;
+}
+.Product2
+{
+    text-align: center;
+    color:brown ;
+}
+.Product3
+{
+    text-align: center;
+    color:brown ;
+}
+.Product4
+{
+    text-align: center;
+    color:brown ;
+}
+.Product5
+{
+    text-align: center;
+    color:brown ;
+}
+.a1{
+    font-size: 30px;
+    color:brown;
+}
+
+
+
+
+
+
